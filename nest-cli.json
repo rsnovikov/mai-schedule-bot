@@ -1,0 +1,18 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "projects": {
+    "data-uploader": {
+      "type": "library",
+      "root": "libs/data-uploader",
+      "entryFile": "index",
+      "sourceRoot": "libs/data-uploader/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/data-uploader/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
